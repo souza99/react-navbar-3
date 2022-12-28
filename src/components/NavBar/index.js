@@ -7,7 +7,7 @@ const NavBar = () => {
         <>
             <Nav>
                 <NavLink to="/">
-                    <h1>OLA</h1>
+                    <img style={{width:'40px', borderRadius: '20px' }} src={require('../../image/logo.jpg')} alt='logo' />
                 </NavLink>
                 <Bars />
                 <NavMenu>
