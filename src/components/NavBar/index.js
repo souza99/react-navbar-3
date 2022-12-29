@@ -23,6 +23,9 @@ const NavBar = () => {
                     <NavLink to="/sing-up" activeStyle>
                         Sing up
                     </NavLink>
+
+                    {/* 2nd Nav */}
+                    {/* <NavBtnLink to="/sing-up">Sing up</NavBtnLink> */}
                 </NavMenu>
                 <NavBtn>
                     <NavBtnLink to="/sing-up">Sing up</NavBtnLink>
